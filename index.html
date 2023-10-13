@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Chasing Elusive Bugs</title>
+  </head>
+  <body>
+    <header>
+      <h1>From Memory Leaks to <br />Heisenbugs and Ghost Branches</h1>
+    </header>
+    <main id="main-content">
+      <section id="summary">
+        <p>
+          "In these tales of software engineering challenges, we witness the
+          dedicated efforts of diverse teams and individuals grappling with
+          elusive bugs and version control mysteries. The first story, 'The
+          Mysterious Memory Leak,' illustrates the importance of teamwork in
+          resolving memory leaks. In 'The Elusive Heisenbug,' a brilliant
+          engineer, Sam, eventually triumphs over an ever-evading bug,
+          underscoring the significance of patience and creativity in debugging.
+          Finally, 'The Ghostly Ghost Branch' showcases the value of proper
+          documentation and communication as a team unravels the origin and
+          purpose of a mysterious version control branch, ultimately archiving
+          it for historical reference."
+        </p>
+        <div>
+          <img
+            src="funny developer.png"
+            alt="A funny image with sentences describing debugging."
+          />
+        </div>
+        <small> Image randomly obatined from Google Search </small>
+      </section>
+      <br />
+      <section id="section_1">
+        <h2>1. The Mysterious Memory Leak</h2>
+        <p>
+          Once upon a time, in a bustling software development company, a team
+          of skilled engineers embarked on a journey to track down a mysterious
+          memory leak that had been plaguing their application for weeks. Every
+          day, the application's memory usage would creep higher and higher,
+          causing it to eventually crash. The team members were a diverse group,
+          each with their unique approach to debugging. One developer, Alice,
+          was determined to find the root cause by meticulously reviewing the
+          code and running memory profilers. She suspected a loop somewhere that
+          was not releasing memory properly.
+        </p>
+        <p>
+          Another developer, Bob, was more of a "rubber duck debugger." He would
+          explain the code to a rubber duck on his desk, line by line, hoping
+          that this process of vocalizing the code would reveal the bug. He
+          believed that talking it out would help him see the issue. Meanwhile,
+          Charlie, an experienced engineer, decided to put the application
+          through a battery of stress tests. He simulated various user scenarios
+          to trigger the memory leak more consistently, hoping to capture it in
+          action. His hope was to identify patterns that might lead to the
+          source of the problem.
+        </p>
+        <p>
+          As the days turned into weeks, the team worked tirelessly. Alice
+          discovered a loop that was indeed not releasing memory properly. Bob's
+          discussions with the rubber duck led to a deeper understanding of the
+          code, allowing him to find a few other minor issues. Charlie's stress
+          tests confirmed that the memory leak was under control once the loop
+          was fixed. In the end, they solved the mysterious memory leak by
+          combining their individual debugging methods. It was a reminder that
+          software engineering isn't just about code but also about teamwork,
+          communication, and a diverse set of skills.
+        </p>
+      </section>
+      <section id="section_2">
+        <h2>2. The Elusive Heisenbug</h2>
+        <p>
+          In a small startup, there was a brilliant software engineer named Sam.
+          Sam was known for their ability to solve complex problems, but there
+          was one bug that had everyone stumped – the elusive Heisenbug. This
+          bug seemed to disappear or change its behavior whenever someone
+          attempted to debug it. It had been haunting the team for months,
+          causing intermittent crashes in their application.
+        </p>
+        <p>
+          Sam decided to take on the challenge. They began by meticulously
+          documenting each occurrence of the bug, noting the circumstances and
+          any recent changes to the code. But every time Sam tried to reproduce
+          the bug in a controlled environment, it would vanish. Frustrated but
+          determined, Sam tried a different approach. They introduced extensive
+          logging throughout the codebase, hoping to catch the bug in the act.
+          It worked to some extent; they managed to capture valuable data about
+          the bug's behavior.
+        </p>
+        <p>
+          Next, Sam enlisted the help of their colleagues. They organized
+          bug-hunting sessions where the entire team would scrutinize the code
+          together. The Heisenbug, however, remained elusive, resisting all
+          attempts to pin it down. Sam's last resort was to use a time-traveling
+          debugger, a tool that could take them back in time to the moment just
+          before the bug occurred. With this tool, Sam was finally able to
+          observe the bug's behavior in its natural environment. They discovered
+          that the Heisenbug was caused by a rare race condition, occurring only
+          when specific events happened in rapid succession. With the root cause
+          identified, Sam and the team quickly patched the bug and celebrated
+          their victory over the elusive Heisenbug. It was a reminder that
+          sometimes, debugging requires a mix of patience, creativity, and the
+          right tools.
+        </p>
+      </section>
+      <section id="section_3">
+        <h2>3. The Ghostly Ghost Branch</h2>
+        <p>
+          In a large software development company, a team of engineers faced an
+          unusual challenge – a ghost branch that haunted their version control
+          system. This mysterious branch seemed to appear and disappear at will,
+          causing confusion and chaos. The branch had no clear origin, no
+          documentation, and no known purpose. Developers would stumble upon it
+          while navigating the code repository, but it always vanished when they
+          tried to investigate further.
+        </p>
+        <p>
+          The team decided to embark on a mission to capture this elusive ghost
+          branch. They employed various version control forensic techniques.
+          Sarah, an expert in git, delved into the commit history, looking for
+          clues about when and how the ghost branch might have been created.
+          Meanwhile, John, the team's version control guru, wrote custom scripts
+          to monitor the repository for any activity related to the ghost
+          branch. This included tracking who accessed it, when it was created,
+          and when it was last modified.
+        </p>
+        <p>
+          As the team persisted in their efforts, they began to uncover hints
+          about the ghost branch's purpose. It turned out that it had been
+          created by an intern years ago as part of an experimental feature.
+          However, the intern had left the company, and nobody else was aware of
+          this long-forgotten project. With this information, the team decided
+          to archive the ghost branch, preserving it for historical purposes,
+          and document its existence for future developers. The ghostly ghost
+          branch was finally laid to rest, and the team learned the importance
+          of proper documentation and communication in software development.
+          These stories capture the often challenging and sometimes whimsical
+          nature of debugging in the world of software engineering. Debugging
+          can be a mysterious journey, but with persistence, creativity, and
+          teamwork, even the most elusive bugs can be conquered.
+        </p>
+        <div class="second-image">
+          <img
+            src="while_not_dead.png"
+            alt="A funny coding example of life for developers"
+          />
+          <br /><small>A funny coding example</small>
+        </div>
+        <p>
+          Coding is an essential skill for the modern world, and there are
+          several compelling reasons to encourage its continued practice and
+          development. Firstly, coding empowers individuals to solve complex
+          problems and create innovative solutions across various domains, from
+          healthcare and finance to entertainment and education. It fosters
+          critical thinking, logical reasoning, and creativity, making it a
+          valuable asset in today's rapidly evolving job market. Additionally,
+          coding promotes digital literacy, enabling people to better understand
+          and navigate the increasingly tech-driven world we live in. Moreover,
+          it plays a crucial role in bridging the digital divide, as proficiency
+          in coding opens doors to opportunities and economic advancement.
+          Lastly, coding is a collaborative endeavor, fostering teamwork,
+          communication, and the sharing of knowledge. Thus, keeping coding at
+          the forefront of education and professional development is vital for
+          individual growth and societal progress.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <div class="grid-container">
+          <div class="title">
+            <li><a href="#summary">Go to Summary</a></li>
+          </div>
+          <div class="item1">
+            <li><a href="#section_1">Go to Story 1</a></li>
+          </div>
+          <div class="item2">
+            <li><a href="#section_2">Go to Story 2</a></li>
+          </div>
+          <div class="item2">
+            <li><a href="#section_3">Go to Story 3</a></li>
+          </div>
+          <div class="item5">
+            <li><a href="index.html">Open a new link in the same tab</a></li>
+          </div>
+          <div class="item6">
+            <li>
+              <a href="index.html" target="_blank"
+                >Open a new link in a new tab</a
+              >
+            </li>
+          </div>
+        </div>
+      </ul>
+    </footer>
+  </body>
+</html>
